@@ -11,6 +11,9 @@ function submitForm() {
     };
     $.post(url, body)
     .done(function(data) {
-        console.log(data);
+        $("#success").removeClass("hide");
+    })
+    .fail(function(error) {
+        $("#error").removeClass("hide");
     });
 }
