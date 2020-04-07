@@ -17,4 +17,3 @@ function submitForm() {
         $("#error").removeClass("hide");
     });
 }
-
