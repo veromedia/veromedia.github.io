@@ -5,7 +5,7 @@
 // });
 
 function submitForm() {
-    var url = "http://localhost:5000/interestForm";
+    var url = "https://api.redywatch.com/interestForm";
     var body = {
         email: document.getElementById("email").value
     };
