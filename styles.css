@@ -8,10 +8,15 @@
 
 p, h2, h1, input[type="text"], input[type="submit"] {
     font-family: 'Nunito', sans-serif;
+    /* font-weight: 300; */
 }
 
 .logo {
     font-size: 4rem;
+    /* font-size: 3rem; */
+    /* height: 150px;
+    width: auto;
+    background-color: white; */
 }
 
 .caption {
@@ -79,7 +84,7 @@ p, h2, h1, input[type="text"], input[type="submit"] {
 }
 
 .text-extra-bold {
-    font-weight: 800!important;
+    font-weight: 700!important;
 }
 
 .hide {
